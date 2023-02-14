@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "openai/cli/cli"
+require "pry-byebug"
+
+Pry.start

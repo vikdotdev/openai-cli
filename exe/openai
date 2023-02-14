@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "openai/cli/cli"
+
+Dry::CLI.new(OpenAI::CLI::Commands).call
