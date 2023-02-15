@@ -38,6 +38,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "dry-configurable"
   spec.add_dependency "dry-container"
   spec.add_dependency "dry-types"
+  spec.add_dependency "os"
   spec.add_dependency "ruby-openai"
   spec.add_dependency "sqlite"
 

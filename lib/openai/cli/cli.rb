@@ -1,13 +1,19 @@
 # frozen_string_literal: true
 
-require "openai/cli/config"
+require 'pry-byebug'
 
-OpenAI::CLI::Config.configure
+require "openai/cli/container"
+require "openai/cli/configurator"
+require "openai/cli/configuration"
+
+require "openai/cli/api_client"
 
 require "openai/cli/commands/version"
+require "openai/cli/commands/config"
 require "openai/cli/commands/complete"
 require "openai/cli/commands/status"
-require "openai/cli/commands/config"
+
+OpenAI::CLI::Container.resolve(:configurator).call
 
 module OpenAI
   module CLI
