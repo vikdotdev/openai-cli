@@ -1,5 +1,3 @@
-# TODO print api version too ??
-#
 require "dry/cli"
 require "openai/cli/version"
 
@@ -14,6 +12,8 @@ module OpenAI
         def call(*)
           puts OpenAI::CLI::VERSION
         end
+
+        # print api version if possible
       end
     end
   end
