@@ -10,11 +10,12 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Command line tool to interact with OpenAI APIs"
   spec.description = <<~DESCRIPTION
-    Command line tool to interact with OpenAI APIs. Aims to be ergonomic and rely on GNU tools when possible.
+    Command line tool to interact with OpenAI APIs. Aims to be ergonomic and
+    rely on GNU tools when possible.
   DESCRIPTION
   spec.homepage = "https://github.com/vikdotdev/openai-cli"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 2.7.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/vikdotdev/openai-cli"
