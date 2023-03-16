@@ -34,10 +34,11 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "dry-auto_inject"
-  spec.add_dependency "dry-cli"
+  spec.add_dependency "dry-cli", "~> 1.0"
   spec.add_dependency "dry-configurable"
   spec.add_dependency "dry-container"
   spec.add_dependency "dry-types"
+  spec.add_dependency "dry-monads", "~> 1.3"
   spec.add_dependency "os"
   spec.add_dependency "ruby-openai"
   spec.add_dependency "sqlite"

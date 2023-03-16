@@ -13,6 +13,9 @@ require "openai/cli/commands/config"
 require "openai/cli/commands/complete"
 require "openai/cli/commands/status"
 
+require "openai/cli/operations/complete"
+require "openai/cli/operations/interactive_complete"
+
 OpenAI::CLI::Container.resolve(:configurator).call
 
 module OpenAI

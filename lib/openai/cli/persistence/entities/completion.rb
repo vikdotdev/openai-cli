@@ -5,6 +5,8 @@ module OpenAI
         class Completion
           # Represents a response from /completion API. Is aware of it's place
           # in the conversation.
+
+          # has choices
         end
       end
     end
